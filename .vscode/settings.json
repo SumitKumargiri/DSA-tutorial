@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "D:\\MinGW\\bin\\gcc.exe"
+}
