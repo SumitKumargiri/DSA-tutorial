@@ -1,0 +1,52 @@
+Sure! Here’s a **list of common string DSA interview questions** in JavaScript (or any language) — **only questions**:
+
+---
+
+### **Easy**
+
+1. Reverse a string.
+2. Check if a string is a palindrome.
+3. Find the length of the longest word in a string.
+4. Count vowels and consonants in a string.
+5. Remove duplicate characters from a string.
+6. Convert string to uppercase / lowercase.
+7. Check if a string contains only digits or letters.
+8. Count the number of words in a string.
+9. Check if a string is empty or blank.
+10. Replace all spaces in a string with another character.
+
+---
+
+### **Medium**
+
+11. Check if two strings are anagrams.
+12. Find the first non-repeating character in a string.
+13. Reverse the words in a sentence.
+14. Longest substring without repeating characters.
+15. Check if a string is a rotation of another string.
+16. Count the occurrences of each character in a string.
+17. Remove all vowels from a string.
+18. Find all permutations of a string.
+19. Convert a string to integer (parseInt without built-in function).
+20. Check if a string is a valid palindrome ignoring spaces and punctuation.
+
+---
+
+### **Hard**
+
+21. Longest palindromic substring.
+22. Minimum window substring containing all characters of another string.
+23. String compression (e.g., “aaabbc” → “a3b2c1”).
+24. Find all anagram substrings of a pattern in a string.
+25. Count all distinct substrings of a string.
+26. Longest substring with at most K distinct characters.
+27. Check if one string is a subsequence of another.
+28. Implement strstr() / indexOf function manually.
+29. Decode a string encoded in a pattern (e.g., “3[a2[c]]” → “accaccacc”).
+30. Find the smallest window in a string containing all characters of another string.
+
+---
+
+If you want, I can make a **ready-to-practice sheet with 50+ string questions only** sorted **Easy → Medium → Hard**, perfect for interviews.
+
+Do you want me to do that?

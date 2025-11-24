@@ -1,0 +1,123 @@
+Absolutely! Let’s cover a **list of common Array interview questions** for DSA, ranging from **easy → medium → hard**, along with hints or explanations. This will help you **prepare thoroughly**.
+
+---
+
+## 🔹 **1️⃣ Easy Level**
+
+1. **Find the largest and smallest element in an array**
+
+   * Hint: Iterate once and keep track of `max` and `min`.
+
+2. **Reverse an array**
+
+   * In-place: swap `arr[i]` with `arr[n-1-i]`.
+
+3. **Find the sum of all elements**
+
+   * Iterate and accumulate sum.
+
+4. **Check if an array is sorted**
+
+   * Compare `arr[i] <= arr[i+1]` for all `i`.
+
+5. **Find the second largest element**
+
+   * Keep track of `largest` and `second_largest` in one pass.
+
+---
+
+## 🔹 **2️⃣ Medium Level**
+
+6. **Move all zeros to the end**
+
+   * Maintain a pointer for next non-zero index.
+
+7. **Find the majority element (> n/2 occurrences)**
+
+   * **Boyer-Moore Voting Algorithm** or hashmap.
+
+8. **Kadane’s Algorithm (Maximum subarray sum)**
+
+   * Track `current_sum` and `max_sum`.
+
+9. **Find duplicate in an array**
+
+   * HashSet, sorting, or modifying array if allowed.
+
+10. **Rotate an array by k positions**
+
+    * Reverse first `n-k` and last `k` elements, then reverse full array.
+
+---
+
+## 🔹 **3️⃣ Hard Level**
+
+11. **Trapping Rain Water problem**
+
+    * Precompute left_max and right_max or use two pointers.
+
+12. **Find pair with given sum in a sorted/unsorted array**
+
+    * Sorted: two pointers
+    * Unsorted: HashSet
+
+13. **Product of array except self**
+
+    * Use prefix and suffix products, O(n) time without division.
+
+14. **Longest consecutive sequence**
+
+    * HashSet-based solution, O(n) time.
+
+15. **Count inversions in an array**
+
+    * Use modified merge sort, O(n log n).
+
+---
+
+## 🔹 **4️⃣ Two Pointer / Sliding Window Problems**
+
+16. **Two sum in sorted array**
+
+    * Use left-right pointers.
+
+17. **Subarray with given sum**
+
+    * Sliding window (if only positive numbers).
+
+18. **Maximum sum subarray of size k**
+
+    * Sliding window.
+
+19. **Longest subarray with distinct elements**
+
+    * Use HashMap to track last indices.
+
+20. **Container With Most Water**
+
+    * Two pointers, shrink smaller height.
+
+---
+
+## 🔹 **5️⃣ Miscellaneous / Coding Tricks**
+
+* **Binary search on rotated sorted array**
+* **Find peak element**
+* **Majority element (Boyer-Moore)**
+* **Dutch National Flag problem (0s, 1s, 2s)**
+* **Next permutation / Previous permutation**
+
+---
+
+💡 **Tips for Interview:**
+
+* Always **clarify input constraints** (sorted? duplicates? size?)
+* Check if **in-place** solution is required.
+* Think about **time & space complexity**.
+* Be ready to **optimize brute-force solutions**.
+
+---
+
+If you want, I can make a **complete Array Interview Question Sheet** with **code snippets for all 20+ problems in C++ / Java / Python** — ready to **practice and memorize for interviews**.
+
+Do you want me to do that?
