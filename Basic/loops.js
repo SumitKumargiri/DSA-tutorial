@@ -14,7 +14,7 @@ while (condition) {
 do {
     // code
 } while (condition);
- 
+
 
 //---- without loop ---------------
 console.log('Hello');
@@ -27,5 +27,11 @@ console.log('Hello')
 // for(let i=0; i<3; i++){
 //     console.log('Hello');
 // }
+// -----------nothing return output-----------/
 
+// let i=5;
+// while(i<4){
+//     console.log(i);      
+// }
+// ----------------------------------
 
