@@ -18,13 +18,14 @@
 
 let str = 'Sumit Kumar Giri';
 // console.log(str.length);  // count character using space also
-let count=0;
+let count = 0;
 for(let char of str){
     if("aeiou".includes(char)){
         count++;
     }
 }
 console.log(count);
+
 
 
 
